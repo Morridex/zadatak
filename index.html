@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circuitmess.com zadatak</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <h1>
+        Learn electronics & coding <br />with our best-selling DIY STEM kits:
+      </h1>
+      <div id="cards">
+        <ul>
+          <li id="card1">
+            <img src="./img_1.jpg" id="img_1" />
+            <h2 id="h2">Spencer</h2>
+            <p id="description">
+              A DIY voice assistant that talks, lights up, and understands voice
+              commands
+            </p>
+            <span id="price"><s>kn 1,027.99</s> kn813.99</span>
+            <p id="discount">Limited 20% discount</p>
+            <button id="button_1">Shop now</button>
+            <div id="ages">Ages 11+</div>
+          </li>
+
+          <li id="card2">
+            <img src="./img_2.jpg" id="img_2" />
+            <h2 id="h2">Jay-D</h2>
+            <p id="description">Build & code your own DJ mixer</p>
+            <span id="price"><s>kn 1,027.99</s> kn856.99</span>
+            <p id="discount">Limited 20% discount</p>
+            <button id="button_2">Shop now</button>
+            <div id="ages">Ages 11+</div>
+          </li>
+
+          <li id="card3">
+            <img src="./img_3.jpg" id="img_3" />
+            <h2 id="h2">Nibble</h2>
+            <p id="description">
+              Build & code your very own retro game console
+            </p>
+            <span id="price"><s>kn 813.99</s> kn642.99</span>
+            <p id="discount">Limited 20% discount</p>
+            <button id="button_3">Shop now</button>
+            <div id="ages">Ages 9+</div>
+          </li>
+        </ul>
+      </div>
+
+      <button id="button_showMore" onclick="loadImages()">Show more</button>
+      <div id="svg_animation">
+        <svg
+          version="1.1"
+          id="L4"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 100 100"
+          enable-background="new 0 0 0 0"
+          xml:space="preserve"
+        >
+          <circle fill="#cab8b8" stroke="none" cx="6" cy="50" r="6">
+            <animate
+              attributeName="opacity"
+              dur="1s"
+              values="0;1;0"
+              repeatCount="indefinite"
+              begin="0.1"
+            />
+          </circle>
+          <circle fill="#cab8b8" stroke="none" cx="26" cy="50" r="6">
+            <animate
+              attributeName="opacity"
+              dur="1s"
+              values="0;1;0"
+              repeatCount="indefinite"
+              begin="0.2"
+            />
+          </circle>
+          <circle fill="#cab8b8" stroke="none" cx="46" cy="50" r="6">
+            <animate
+              attributeName="opacity"
+              dur="1s"
+              values="0;1;0"
+              repeatCount="indefinite"
+              begin="0.3"
+            />
+          </circle>
+        </svg>
+      </div>
+    </section>
+  </body>
+</html>
